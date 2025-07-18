@@ -1,0 +1,11 @@
+Package: portsniper
+Version: 1.0
+Section: net
+Priority: optional
+Architecture: all
+Depends: python3
+Maintainer: Your Name <almond2109@gmail.com>
+Description: PortSniper - Fast and flexible port scanner
+ PortSniper is a command-line port scanner written in Python.
+ It supports threaded scanning, service detection, and banner grabbing.
+
