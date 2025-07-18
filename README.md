@@ -1,36 +1,24 @@
-# PortSniper
+# PortSniper 
 
-> ⚡ Fast and Flexible Port Scanner — crafted by ExploitX
-
-
-
----
-
-## 🔎 About
-
-**PortSniper** is a lightweight and powerful command-line port scanner built with Python.  
-It offers fast multi-threaded scanning, open-port filtering, service name display, and banner grabbing — all packed into a `.deb` installable package for ease of use.
+**PortSniper** is a fast and flexible CLI-based port scanner written in Python.  
+It supports scanning multiple ports, service name detection, and banner grabbing.
 
 ---
 
 ## 🚀 Features
 
--  **Targeted scanning** for specific IPs or domains  
-- ⚡ **Multithreaded** scanning for speed  
--  **Service name detection** for well-known ports  
--  **Banner grabbing** to detect service versions  
--  `.deb` package support (`sudo apt install`)  
--  Colored output for better visibility
+- 🔎 Scan single or multiple ports
+- 🧠 Show only open ports with `-o`
+- 🔧 Detect service names with `-s`
+- 🔥 Grab service version banners with `-v`
+- 🧵 Threaded port scanning for speed
 
 ---
 
-# Usage
-
-portsniper -t <target> -p <port-range> [options]
-
----
-
-## 🛠️ Installation
+##  Install via APT (Recommended)
 
 ```bash
-sudo apt install ./portsniper.deb
+echo "deb [trusted=yes] https://almond2107.github.io/portsniper-apt/ stable main" | sudo tee /etc/apt/sources.list.d/portsniper.list
+sudo apt update
+sudo apt install portsniper
+

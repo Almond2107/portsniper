@@ -2,7 +2,7 @@ Package: portsniper
 Version: 1.0
 Section: net
 Priority: optional
-Architecture: all
+Architecture: amd64
 Depends: python3
 Maintainer: Your Name <almond2109@gmail.com>
 Description: PortSniper - Fast and flexible port scanner
